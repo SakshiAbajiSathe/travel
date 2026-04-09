@@ -1,7 +1,7 @@
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import Hello from "./components/Hello";
-import BookingSection from "./components/BookingSection"; 
+import Testimonials from "./components/Testimonials";
 
 
 
@@ -12,10 +12,9 @@ function App() {
       <Navbar />
       <Hero />
       <Hello/>
-      <Vaishnavi/>
-      <BookingSection/>
-
       
+
+      <Testimonials/>
       </>
     );
   }
