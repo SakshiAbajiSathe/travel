@@ -5,6 +5,7 @@ import Subscribe from "./components/Subscribe";
 import Destinations from "./components/Destination";
 import Services from "./components/Services";
 import TripCard from "./components/TripCard";
+import Footer from "./components/Footer";
 
 
 
@@ -20,6 +21,7 @@ function App() {
       
       <Testimonials/>
       <Subscribe/>
+      <Footer/>
       </>
     );
   }
