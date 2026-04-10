@@ -2,6 +2,7 @@ import insta from "../assets/insta.png";
 import fb from "../assets/fb.png";
 import PlayStore from "../assets/PlayStore.png";
 import GooglePlay from "../assets/GooglePlay.png";
+import whitebackground from "../assets/whitebackground.png";
 
 function Footer() {
   return (
@@ -56,7 +57,9 @@ function Footer() {
             <div className="w-8 h-8 flex items-center justify-center bg-gradient-to-r  text-white rounded-full">
               <img src={insta} />
             </div>
-            <div className="w-7 h-7 bg-white rounded-full shadow"></div>
+            <div className="w-8 h-8">
+                <img src={whitebackground}/>
+            </div>
           </div>
 
           <p className="text-gray-600 mb-3">Discover our app</p>
