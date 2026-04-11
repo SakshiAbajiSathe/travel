@@ -28,7 +28,7 @@ function Testimonials() {
 
         <div className="flex-1 relative flex justify-center">
 
-          <div className="absolute top-10 right-6 bg-white shadow-md rounded-xl w-72 h-40 opacity-40"></div>
+          {/* <div className="absolute top-10 right-6 bg-white shadow-md rounded-xl w-72 h-40 opacity-40"></div> */}
 
           <div className="bg-white p-6 rounded-2xl shadow-xl w-80 relative z-10">
 

@@ -11,7 +11,7 @@ function Hero() {
     
         <h1
   className="text-4xl md:text-6xl  font-bold mt-4 leading-tight"
-  style={{ fontFamily: "" }}
+  
 >
           Travel, enjoy and live a new and full life
         </h1>

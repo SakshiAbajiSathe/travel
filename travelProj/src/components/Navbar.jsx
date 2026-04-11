@@ -6,10 +6,10 @@ function Navbar() {
       </h1>
 
       <nav className="hidden b md:flex gap-18 p-5   ">
-        <a   href="Destinations.jsx">Destinations</a>
-        <a href="Hotels.jsx">Hotels</a>
-        <a href="Flights.jsx">Flights</a>
-        <a href="Bookings.jsx">Bookings</a>
+        <a   href="/Destinations">Destinations</a>
+        <a href="/Hotels">Hotels</a>
+        <a href="/Flights">Flights</a>
+        <a href="/Bookings">Bookings</a>
       </nav>
 
       <div className="flex gap-4">
