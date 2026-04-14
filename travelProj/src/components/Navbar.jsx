@@ -5,19 +5,28 @@ function Navbar() {
         Jad<span className="text-yellow-500">oo</span>
       </h1>
 
-      <nav className="hidden b md:flex gap-18 p-5   ">
-        <a   href="/Destinations">Destinations</a>
-        <a href="/Hotels">Hotels</a>
-        <a href="/Flights">Flights</a>
-        <a href="/Bookings">Bookings</a>
+      <nav className="hidden b md:flex gap-18 p-5    ">
+        <a href="#" className="hover:text-yellow-500 transition font-bold">
+          Destinations
+        </a>
+        <a href="#" className="hover:text-yellow-500 transition font-bold">
+          Hotels
+        </a>
+        <a href="#" className="hover:text-yellow-500 transition font-bold">
+          Flights
+        </a>
+        <a href="#" className="hover:text-yellow-500 transition font-bold">
+          Bookings
+        </a>
       </nav>
 
       <div className="flex gap-4">
-        <button className="hidden md:block">Login</button>
-        <button className="border px-4 py-1 rounded">Sign up</button>
+        <button className="font-bold hover:text-yellow-500">Login</button>
+        <button className="border px-4 py-1 rounded font-bold hover:bg-yellow-500 hover:text-white">Sign up</button>
       </div>
-    </header>
+    </header >
   );
 }
+
 
 export default Navbar;
