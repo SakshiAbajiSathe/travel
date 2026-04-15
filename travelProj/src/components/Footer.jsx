@@ -22,9 +22,9 @@ function Footer() {
         <div>
           <h2 className="font-semibold mb-4">Company</h2>
           <ul className="text-gray-500 space-y-2 text-sm">
-            <li>About</li>
-            <li>Careers</li>
-            <li>Mobile</li>
+            <li className="hover:text-blue-500 transition-colors duration-300">About</li>
+            <li className="hover:text-blue-500  transition-colors duration-300">Careers</li>
+            <li className="hover:text-blue-500  transition-colors duration-300">Mobile</li>
           </ul>
         </div>
 
@@ -32,9 +32,9 @@ function Footer() {
         <div>
           <h2 className="font-semibold mb-4">Contact</h2>
           <ul className="text-gray-500 space-y-2 text-sm">
-            <li>Help/FAQ</li>
-            <li>Press</li>
-            <li>Affiliates</li>
+            <li className="hover:text-blue-500  transition-colors duration-300">Help/FAQ</li>
+            <li className="hover:text-blue-500  transition-colors duration-300">Press</li>
+            <li className="hover:text-blue-500  transition-colors duration-300"li>Affiliates</li>
           </ul>
         </div>
 
@@ -42,22 +42,22 @@ function Footer() {
         <div>
           <h2 className="font-semibold mb-4">More</h2>
           <ul className="text-gray-500 space-y-2 text-sm">
-            <li>Airlinefees</li>
-            <li>Airline</li>
-            <li>Low fare tips</li>
+            <li className="hover:text-blue-500 transition-colors duration-300">Airlinefees</li>
+            <li className="hover:text-blue-500  transition-colors duration-300">Airline</li>
+            <li className="hover:text-blue-500  transition-colors duration-300">Low fare tips</li>
           </ul>
         </div>
 
        
         <div>
           <div className="flex gap-3 mb-4">
-            <div className="w-8 h-8 flex items-center justify-center">
+            <div className="w-8 h-8 flex items-center justify-center hover:scale-120 transition-transform duration-300">
               <img src={fb}/>
             </div>
-            <div className="w-8 h-8 flex items-center justify-center bg-gradient-to-r  text-white rounded-full">
+            <div className="w-8 h-8 flex items-center justify-center bg-gradient-to-r rounded-full hover:scale-120 transition-transform duration-300">
               <img src={insta} />
             </div>
-            <div className="w-8 h-8">
+            <div className="w-8 h-8 hover:scale-120 transition-transform duration-300">
                 <img src={whitebackground}/>
             </div>
           </div>
@@ -68,12 +68,12 @@ function Footer() {
             <img
               src={GooglePlay}
               alt="google play"
-              className="h-8"
+              className="h-8 hover:scale-105 transition-transform duration-300"
             />
             <img
               src={PlayStore}
               alt="app store"
-              className="h-8"
+              className="h-8 hover:scale-105 transition-transform duration-300"
             />
           </div>
         </div>
