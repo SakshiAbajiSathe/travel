@@ -26,9 +26,9 @@ function Footer() {
         <div>
           <h2 className="font-semibold mb-4 text-base sm:text-lg">Company</h2>
           <ul className="text-gray-500 space-y-2 text-sm sm:text-base">
-            <li className="hover:text-blue-500 transition">About</li>
-            <li className="hover:text-blue-500 transition">Careers</li>
-            <li className="hover:text-blue-500 transition">Mobile</li>
+            <li className="cursor-pointer hover:text-blue-500 transition">About</li>
+            <li className="cursor-pointer hover:text-blue-500 transition">Careers</li>
+            <li className="cursor-pointer hover:text-blue-500 transition">Mobile</li>
           </ul>
         </div>
 
@@ -36,9 +36,9 @@ function Footer() {
         <div>
           <h2 className="font-semibold mb-4 text-base sm:text-lg">Contact</h2>
           <ul className="text-gray-500 space-y-2 text-sm sm:text-base">
-            <li className="hover:text-blue-500 transition">Help/FAQ</li>
-            <li className="hover:text-blue-500 transition">Press</li>
-            <li className="hover:text-blue-500 transition">Affiliates</li>
+            <li className="cursor-pointer hover:text-blue-500 transition">Help/FAQ</li>
+            <li className="cursor-pointer hover:text-blue-500 transition">Press</li>
+            <li className="cursor-pointer hover:text-blue-500 transition">Affiliates</li>
           </ul>
         </div>
 
@@ -46,9 +46,9 @@ function Footer() {
         <div>
           <h2 className="font-semibold mb-4 text-base sm:text-lg">More</h2>
           <ul className="text-gray-500 space-y-2 text-sm sm:text-base">
-            <li className="hover:text-blue-500 transition">Airline fees</li>
-            <li className="hover:text-blue-500 transition">Airline</li>
-            <li className="hover:text-blue-500 transition">Low fare tips</li>
+            <li className="cursor-pointer hover:text-blue-500 transition">Airline fees</li>
+            <li className="cursor-pointer hover:text-blue-500 transition">Airline</li>
+            <li className="cursor-pointer hover:text-blue-500 transition">Low fare tips</li>
           </ul>
         </div>
 
@@ -75,12 +75,12 @@ function Footer() {
             <img
               src={GooglePlay}
               alt="google play"
-              className="h-8 sm:h-10 hover:scale-105 transition"
+              className="h-8 sm:h-10 cursor-pointer hover:scale-105 transition"
             />
             <img
               src={PlayStore}
               alt="app store"
-              className="h-8 sm:h-10 hover:scale-105 transition"
+              className="h-8 sm:h-10 cursor-pointer hover:scale-105 transition"
             />
           </div>
         </div>
