@@ -8,56 +8,63 @@ import logo5 from "../assets/logo5.png";
 
 function Testimonials() {
   return (
-    <section className="px-6 md:px-16 py-16 bg-gray-50">
+    <section className="px-4 sm:px-6 md:px-10 lg:px-16 py-10 sm:py-12 md:py-16 bg-gray-50">
+      
+      
+      <div className="max-w-7xl mx-auto flex flex-col lg:flex-row gap-10 items-center">
+        
+        
+        <div className="flex-1 text-center lg:text-left">
+          <p className="text-gray-400 text-xs sm:text-sm mb-2">
+            TESTIMONIALS
+          </p>
 
-      <div className="flex flex-col md:flex-row gap-10 items-center">
-
-        <div className="flex-1">
-          <p className="text-gray-400 text-sm mb-2">TESTIMONIALS</p>
-
-          <h2 className="text-4xl font-bold leading-snug mb-6">
+          <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold leading-snug mb-6">
             What People Say <br /> About Us.
           </h2>
 
-          <div className="flex gap-2 mt-6">
+          <div className="flex justify-center lg:justify-start gap-2 mt-6">
             <span className="w-3 h-3 bg-gray-800 rounded-full"></span>
             <span className="w-3 h-3 bg-gray-300 rounded-full"></span>
             <span className="w-3 h-3 bg-gray-300 rounded-full"></span>
           </div>
         </div>
 
-        <div className="flex-1 relative flex justify-center">
-
-          {/* <div className="absolute top-10 right-6 bg-white shadow-md rounded-xl w-72 h-40 opacity-40"></div> */}
-
-          <div className="bg-white p-6 rounded-2xl shadow-xl w-80 relative z-10">
-
+        
+        <div className="flex-1 flex justify-center">
+          <div className="bg-white p-5 sm:p-6 rounded-2xl shadow-xl w-full max-w-sm relative">
+            
             <img
               src={userImg}
               alt="user"
-              className="w-12 h-12 rounded-full absolute -top-6 left-6 border-4 border-white"
+              className="w-10 h-10 sm:w-12 sm:h-12 rounded-full absolute -top-5 left-5 border-4 border-white"
             />
 
-            <p className="text-gray-500 text-sm mt-6">
+            <p className="text-gray-500 text-sm sm:text-base mt-6">
               “On the Windows talking painted pasture yet its express parties use.
               Sure last upon he same as knew next. Of believed or diverted no.”
             </p>
 
-            <h4 className="mt-4 font-semibold">Mike taylor</h4>
-            <p className="text-sm text-gray-400">Lahore, Pakistan</p>
-          </div>
+            <h4 className="mt-4 font-semibold text-sm sm:text-base">
+              Mike Taylor
+            </h4>
 
+            <p className="text-xs sm:text-sm text-gray-400">
+              Lahore, Pakistan
+            </p>
+          </div>
         </div>
 
       </div>
 
-      <div className="flex flex-wrap justify-center items-center gap-10 mt-16 opacity-70">
-
-        <img src={logo1} className="h-30" />
-        <img src={logo2} className="h-30" />
-        <img src={logo3} className="h-25" />
-        <img src={logo4} className="h-6" />
-        <img src={logo5} className="h-6" />
+      
+      <div className="max-w-6xl mx-auto flex flex-wrap justify-center items-center gap-6 sm:gap-10 mt-12 md:mt-16 opacity-70">
+        
+        <img src={logo1} alt="logo1" className="h-6 sm:h-8 md:h-10" />
+        <img src={logo2} alt="logo2" className="h-6 sm:h-8 md:h-10" />
+        <img src={logo3} alt="logo3" className="h-6 sm:h-8 md:h-10" />
+        <img src={logo4} alt="logo4" className="h-5 sm:h-6 md:h-8" />
+        <img src={logo5} alt="logo5" className="h-5 sm:h-6 md:h-8" />
 
       </div>
 
