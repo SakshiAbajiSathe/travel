@@ -10,7 +10,7 @@ function TripCard() {
   return (
     <div className="flex flex-col lg:flex-row items-center justify-between px-10 py-16 bg-[#f8f9fc]">
       
-      {/* Left Section */}
+      
       <div className="max-w-lg">
         <p className="text-gray-400 font-medium">Easy and Fast</p>
 
@@ -18,7 +18,7 @@ function TripCard() {
           Book Your Next Trip <br /> In 3 Easy Steps
         </h1>
 
-        {/* Step 1 */}
+        
         <div className="flex gap-4 mt-10 group cursor-pointer">
           <div className="bg-yellow-400 p-3 rounded-xl transition-transform duration-300 group-hover:scale-110">
             <img src={logov1} alt="icon" />
@@ -33,7 +33,7 @@ function TripCard() {
           </div>
         </div>
 
-        {/* Step 2 */}
+        
         <div className="flex gap-4 mt-6 group cursor-pointer">
           <div className="bg-orange-500 p-3 rounded-xl transition-transform duration-300 group-hover:scale-110">
             <img src={logov2} alt="icon" />
@@ -48,7 +48,7 @@ function TripCard() {
           </div>
         </div>
 
-        {/* Step 3 */}
+       
         <div className="flex gap-4 mt-6 group cursor-pointer">
           <div className="bg-teal-700 p-3 rounded-xl transition-transform duration-300 group-hover:scale-110">
             <img src={logov3} alt="icon" />
@@ -64,7 +64,6 @@ function TripCard() {
         </div>
       </div>
 
-      {/* Right Section */}
       <div className="relative mt-16 lg:mt-0">
 
         {/* Main Card */}
@@ -85,7 +84,6 @@ function TripCard() {
             14-29 June | by Robbin joseph
           </p>
 
-          {/* Icons */}
           <div className="flex gap-4 mt-4 text-gray-400">
             <div className="bg-gray-100 p-2 rounded-full hover:bg-green-100 hover:text-green-600 transition">
               <Leaf size={16} />
@@ -98,14 +96,14 @@ function TripCard() {
             </div>
           </div>
 
-          {/* Bottom */}
+         
           <div className="flex justify-between items-center mt-5">
             <p className="text-gray-500 text-sm">24 people going</p>
             <Heart className="text-blue-500 transition-transform duration-300 hover:scale-125 hover:text-red-500 cursor-pointer" size={18} />
           </div>
         </div>
 
-        {/* Floating Card */}
+       
         <div className="absolute right-[-40px] bottom-[60px] bg-white shadow-lg rounded-2xl p-3 w-[220px] transition-all duration-300 hover:scale-105 hover:shadow-2xl">
           
           <div className="flex items-center gap-3">
