@@ -1,4 +1,5 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
 
 export default function Destinations() {
   const destinations = [
@@ -21,7 +22,7 @@ export default function Destinations() {
       price: "$15k",
       duration: "28 Days Trip",
       image:
-        "https://images.unsplash.com/photo-1526778548025-fa2f459cd5c1?q=80&w=1000"
+       "https://miro.medium.com/v2/resize:fit:1100/format:webp/1*pg4tuVXKbsrKcp9ear-OzA.jpeg"
     }
   ];
 
@@ -37,17 +38,24 @@ export default function Destinations() {
         {destinations.map((item, index) => (
           <div
             key={index}
-            className="bg-white rounded-2xl shadow-lg overflow-hidden"
+            onClick={() => navigate("/details")}
+            className="bg-white rounded-2xl shadow-lg overflow-hidden
+                      cursor-pointer bg-white rounded-2xl shadow-lg overflow-hidden 
+                      transform hover:scale-105 hover:-translate-y-2 
+                      hover:shadow-2xl 
+                      transition duration-300 ease-in-out"
           >
             <img
               src={item.image}
               alt={item.title}
-              className="h-60 w-full object-cover"
+              className="h-60 w-full object-cover 
+              transition duration-300 
+             hover:scale-110"
             />
 
             <div className="p-4 text-left">
               <div className="flex justify-between items-center">
-                <h3 className="font-semibold text-[#1E1D4C]">
+                <h3 className="font-semibold text-[#1E1D4C] text-3xl">
                   {item.title}
                 </h3>
                 <span className="text-gray-500 text-sm">
@@ -55,7 +63,7 @@ export default function Destinations() {
                 </span>
               </div>
 
-              <p className="text-gray-500 text-sm mt-2">
+              <p className="text-gray-500 text-lg mt-2">
                 ✈ {item.duration}
               </p>
             </div>
