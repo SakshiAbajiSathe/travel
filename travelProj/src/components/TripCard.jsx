@@ -6,6 +6,7 @@ import logov1 from "../assets/logov1.png";
 import logov2 from "../assets/logov2.png";
 import logov3 from "../assets/logov3.png";
 
+
 function TripCard() {
   return (
     <div className="px-4 sm:px-6 md:px-10 lg:px-16 py-10 md:py-16 bg-[#f8f9fc]">

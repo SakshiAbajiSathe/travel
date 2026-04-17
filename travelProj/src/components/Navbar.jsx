@@ -92,8 +92,8 @@ function Navbar() {
           Home
         </Link>
 
-        <Link to="/about" className="hover:text-yellow-500 font-bold">
-          About
+        <Link to="/tripcard" className="hover:text-yellow-500 font-bold">
+          Bookings
         </Link>
       </nav>
 

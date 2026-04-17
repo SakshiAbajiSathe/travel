@@ -40,7 +40,7 @@ import TripCard from "./components/TripCard";
 import Testimonials from "./components/Testimonials";
 import Subscribe from "./components/Subscribe";
 import Footer from "./components/Footer";
-import  About  from "./components/About";
+
 
 function Home() {
   return (
@@ -51,7 +51,7 @@ function Home() {
       <TripCard />
       <Testimonials />
       <Subscribe />
-      <About />
+      {/* <About /> */}
     </>
   );
 }
@@ -66,7 +66,7 @@ function App() {
         <Route path="/destinations" element={<Destinations />} />
         <Route path="/services" element={<Services />} />
         <Route path="/testimonials" element={<Testimonials />} />
-        <Route path="/about" element={<About />} />
+        <Route path="/tripcard" element={<TripCard />} />
       </Routes>
 
       <Footer />
