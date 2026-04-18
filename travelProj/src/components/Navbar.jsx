@@ -76,6 +76,11 @@ function Navbar() {
       </h1>
 
       <nav className="hidden md:flex gap-10 p-5">
+
+<Link to="/" className="hover:text-yellow-500 font-bold">
+          Home
+        </Link>
+        
         <Link to="/destinations" className="hover:text-yellow-500 font-bold">
           Destinations
         </Link>
@@ -88,9 +93,7 @@ function Navbar() {
           Testimonials
         </Link>
 
-        <Link to="/" className="hover:text-yellow-500 font-bold">
-          Home
-        </Link>
+        
 
         <Link to="/tripcard" className="hover:text-yellow-500 font-bold">
           Bookings
